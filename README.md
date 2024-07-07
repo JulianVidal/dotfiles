@@ -19,10 +19,10 @@ I have chosen to move to a more bespoke solution, as I would like this repo to a
 Use symbolic links like stow, but I will manually write were they need to go and have a script create the symlinks. Very similar to stow, but I don't need to keep the file structure in my repo the same as the home directory, I can put everything to do with zsh in one directory.
 
 What I want to do:
- * For each program I use:
-  * The configuration files
-  * How to install it
-  * Any notes that I want to make
+    * For each program I use:
+        * The configuration files
+        * How to install it
+        * Any notes that I want to make
 
 My neovim setup will work differently, since I have forked the Kickstart.nvim repo and would like to keep the fork in case of future updates. I will use git submodules.
 
@@ -30,22 +30,22 @@ My neovim setup will work differently, since I have forked the Kickstart.nvim re
 # Installation
 
 List of programs that I install for my setup:
- * zsh - instead of bash, don't know the difference
-  * oh-my-zsh - for zsh configurations, don't know what it does exactly
-  * p10k - for prompt, formats the prompt could use starship
- * tmux - Terminal multiplexer, multiple sessions, windows and panes
-  * tpm - tmux plugin manager, for add plugins
-   * tmux-navigator - for navigating between neovim and tmux panes
- * neovim
-  * Check kickstart.nvim fork
- * alacritty - Maybe I will switch to windows terminal
- * miniconda3 - python version manager
- * go - go
- * nvm - node version manager
- * git
- * fzf
- * ripgrep
- * unzip
- * gcc
- * Fira mono nerd font - Maybe change to another, no real preference
+* zsh - instead of bash, don't know the difference
+* oh-my-zsh - for zsh configurations, don't know what it does exactly
+    * p10k - for prompt, formats the prompt could use starship
+* tmux - Terminal multiplexer, multiple sessions, windows and panes
+    * tpm - tmux plugin manager, for add plugins
+    * tmux-navigator - for navigating between neovim and tmux panes
+* neovim
+    * Check kickstart.nvim fork
+* alacritty - Maybe I will switch to windows terminal
+* miniconda3 - python version manager
+* go - go
+* nvm - node version manager
+* git
+* fzf
+* ripgrep
+* unzip
+* gcc
+* Fira mono nerd font - Maybe change to another, no real preference
 
