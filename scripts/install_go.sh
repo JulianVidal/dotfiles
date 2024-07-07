@@ -1,7 +1,7 @@
 #!/bin/bash
 
 set -eu -o pipefail # fail on error and report it, debug all lines
-source ./utils.sh # Sources useful functions
+source ~/dotfiles/scripts/utils.sh # Sources useful functions
 
 GO=/usr/local/go
 if [ -d "$GO" ]; then

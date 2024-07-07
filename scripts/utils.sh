@@ -1,7 +1,7 @@
 #!/bin/bash
 
 install_pkg() {
-    if [ dpkg-query -s $1 &> /dev/null -eq 0 ]; then
+    if dpkg-query -W -f='${Status}' "$1" 2>/dev/null | grep -q "install ok installed"; then
         echo "Already installed $1"
     else
         echo "Installing $1"
