@@ -35,19 +35,19 @@ List of programs that I install for my setup:
     * p10k - for prompt, formats the prompt could use starship
 * tmux - Terminal multiplexer, multiple sessions, windows and panes
     * tpm - tmux plugin manager, for add plugins
-    * tmux-navigator - for navigating between neovim and tmux panes
-    * vi keybinds?
-    * Navigation keybinds?
+        * tmux-navigator - for navigating between neovim and tmux panes
+        * vi keybinds
+        * Navigation keybinds
 * neovim
-    * Check kickstart.nvim fork
+    * kickstart.nvim submodule
+        * ripgrep
+        * unzip
+        * gcc
 * windows terminal settings
+* git
+* fzf
 * miniconda3 - python version manager
 * go - go
 * nvm - node version manager
-* git
-* fzf
-* ripgrep
-* unzip
-* gcc
 * Fira mono nerd font - Maybe change to another, no real preference
 
