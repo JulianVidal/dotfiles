@@ -10,6 +10,7 @@ sudo apt upgrade
 sudo apt autoremove
 
 # Create links to relevant dotfiles
+create_link ~/dotfiles/zsh/.zshenv ~/.zshenv
 create_link ~/dotfiles/zsh/.zshrc ~/.zshrc
 create_link ~/dotfiles/zsh/.p10k.zsh ~/.p10k.zsh
 

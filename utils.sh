@@ -1,12 +1,11 @@
 #!/bin/bash
 
 install_pkg() {
-    dpkg-query -s $1 &> /dev/null
-    if [ $? -eq 0 ]; then
-        echo "Already installed $1"  
+    if [ dpkg-query -s $1 &> /dev/null -eq 0 ]; then
+        echo "Already installed $1"
     else
-        echo "Installing $1"  
-        sudo apt install -y $1
+        echo "Installing $1"
+        sudo apt-get install "$1" -y
     fi
 }
 

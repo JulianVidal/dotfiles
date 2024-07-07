@@ -3,14 +3,14 @@
 set -eu -o pipefail # fail on error and report it, debug all lines
 source ./utils.sh # Sources useful functions
 
-# Create links to relevant dotfiles
-create_link ~/dotfiles/tmux/.tmux.conf ~/.tmux.conf
-
 # Updating apt before installing packages
 echo "Updating apt"
 sudo apt update
 sudo apt upgrade
 sudo apt autoremove
+
+# Create links to relevant dotfiles
+create_link ~/dotfiles/tmux/.tmux.conf ~/.tmux.conf
 
 # Installs packages
 echo "Installing git, tmux"
