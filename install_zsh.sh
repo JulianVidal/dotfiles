@@ -3,19 +3,20 @@
 set -eu -o pipefail # fail on error and report it, debug all lines
 source ./utils.sh # Sources useful functions
 
-# Create links to relevant dotfiles
-create_link ~/dotfiles/zsh/.zshrc ~/.zshrc
-create_link ~/dotfiles/zsh/.p10k.zsh ~/.p10k.zsh
-
 # Updating apt before installing packages
 echo "Updating apt"
 sudo apt update
 sudo apt upgrade
 sudo apt autoremove
 
-# Installs dependencies
-echo "Installing zsh, curl and Oh My Zsh"
+# Create links to relevant dotfiles
+create_link ~/dotfiles/zsh/.zshrc ~/.zshrc
+create_link ~/dotfiles/zsh/.p10k.zsh ~/.p10k.zsh
+
+# Installs packages
+echo "Installing zsh, git and curl"
 install_pkg "zsh"
+install_pkg "git"
 install_pkg "curl"
 
 # Useful default variables for installation

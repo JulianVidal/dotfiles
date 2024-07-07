@@ -36,6 +36,8 @@ List of programs that I install for my setup:
 * tmux - Terminal multiplexer, multiple sessions, windows and panes
     * tpm - tmux plugin manager, for add plugins
     * tmux-navigator - for navigating between neovim and tmux panes
+    * vi keybinds?
+    * Navigation keybinds?
 * neovim
     * Check kickstart.nvim fork
 * alacritty - Maybe I will switch to windows terminal
