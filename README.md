@@ -51,3 +51,11 @@ List of programs that I install for my setup:
 * nvm - node version manager
 * Fira mono nerd font - Maybe change to another, no real preference
 
+
+## Issues
+* Latex
+    * Sioyek won't return focus back to terminal when inverse searching
+        * xdotools doesn't work in wsl, so what other way is there to get focus back on the terminal
+    * Sioyek in windows instead of inside WSL doesn't get inverse searching, that path names are wrong
+    * WSL windows look odd, but should be fine for pdf viewing
+    
