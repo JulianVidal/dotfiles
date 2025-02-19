@@ -131,3 +131,13 @@ unset __conda_setup
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+[ -f "/home/julian/.ghcup/env" ] && . "/home/julian/.ghcup/env" # ghcup-env
+
+# set PATH so it includes texlive
+export PATH="/usr/local/texlive/2024/bin/x86_64-linux:$PATH"
+
+# Add Agda S-Exp fork
+# alias sexp="/home/julian/code/agda/.stack-work/install/x86_64-linux/b4833c7b26d75d48127b64f9ba714e450eeb4e93edce9ed5d26b644c4d7fa88d/9.4.8/bin/agda"
+# alias agda="/home/julian/code/agda/.stack-work/install/x86_64-linux/b4833c7b26d75d48127b64f9ba714e450eeb4e93edce9ed5d26b644c4d7fa88d/9.4.8/bin/agda"
+# export PATH="/home/julian/code/agda/.stack-work/install/x86_64-linux/b4833c7b26d75d48127b64f9ba714e450eeb4e93edce9ed5d26b644c4d7fa88d/9.4.8/bin/:$PATH"

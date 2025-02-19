@@ -9,5 +9,5 @@ export PATH="/usr/local/go/bin:$PATH"
 export PATH="$HOME/go/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 
-
 bindkey -s ^f "~/dotfiles/tmux/muxi.sh\n"
+. "$HOME/.cargo/env"
