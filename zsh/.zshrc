@@ -141,3 +141,4 @@ export PATH="/usr/local/texlive/2024/bin/x86_64-linux:$PATH"
 # alias sexp="/home/julian/code/agda/.stack-work/install/x86_64-linux/b4833c7b26d75d48127b64f9ba714e450eeb4e93edce9ed5d26b644c4d7fa88d/9.4.8/bin/agda"
 # alias agda="/home/julian/code/agda/.stack-work/install/x86_64-linux/b4833c7b26d75d48127b64f9ba714e450eeb4e93edce9ed5d26b644c4d7fa88d/9.4.8/bin/agda"
 # export PATH="/home/julian/code/agda/.stack-work/install/x86_64-linux/b4833c7b26d75d48127b64f9ba714e450eeb4e93edce9ed5d26b644c4d7fa88d/9.4.8/bin/:$PATH"
+export TINTED_TMUX_OPTION_STATUSBAR=1
